@@ -1,0 +1,57 @@
+{
+    "name": "library-2",
+    "jpName": "図書館2階",
+    "schoolBuilding": "図書館",
+    "stair": "2階",
+    "description": "図書館の2階、読書に加え自習ができる空間。図書館内の快適な温度や明るさのもと静かに自習ができるこの場所は、中学生から高校生までいろんな生徒に利用されている。現在は感染対策のため使用が禁止されている。",
+    "icon": "fas fa-book-reader",
+    "near": [
+        {
+            "name": "library-1",
+            "jpName": "図書館1階",
+            "icon": "fas fa-book"
+        }
+    ],
+    "prev": {
+        "name": "library-1",
+        "jpName": "図書館1階"
+    },
+    "next": {
+        "name": "gym-entrance",
+        "jpName": "体育館出入口"
+    },
+    "pannellum": {
+        "default": {
+            "autoLoad": true,
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Flibrary-2-1.jpg?alt=media",
+            "pitch": -5.451688828395121,
+            "yaw": -167.05484482380606,
+            "hotSpots": [
+                {
+                    "type": "scene",
+                    "pitch": -5.156896754237771,
+                    "yaw": -172.02672653716775,
+                    "text": "奥へ",
+                    "sceneId": "奥"
+                }
+            ]
+        },
+        "scenes": {
+            "奥": {
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Flibrary-2-2.jpg?alt=media",
+                "pitch": -6.114353376363709,
+                "yaw": 8.173465992689614,
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": -3.2616075832762608,
+                        "yaw": -170.89747478481436,
+                        "text": "手前へ",
+                        "sceneId": "default"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

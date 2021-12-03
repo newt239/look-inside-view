@@ -1,0 +1,30 @@
+{
+    "name": "praza",
+    "jpName": "プラザ",
+    "schoolBuilding": "その他",
+    "stair": "1階",
+    "description": "栄東の来客を出迎える玄関口。周辺には事務室や職員室、進路相談室(アドミッションセンター)などがある。また、中央の壁際には栄東のマスコットである、フクロウの「アウルくん」の像などがあり、玄関口にふさわしい場所となっている。",
+    "icon": "fas fa-sign-in-alt",
+    "near": [
+        {
+            "name": "piloti",
+            "jpName": "ピロティ",
+            "icon": ""
+        }
+    ],
+    "prev": {
+        "name": "arena",
+        "jpName": "アリーナ"
+    },
+    "next": {
+        "name": "inner-yard",
+        "jpName": "中庭"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fpraza.jpg?alt=media",
+            "autoLoad": true
+        }
+    }
+}

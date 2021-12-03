@@ -1,0 +1,46 @@
+{
+    "name": "pentagon",
+    "jpName": "生物実験室",
+    "schoolBuilding": "第1校舎",
+    "stair": "3階",
+    "description": "第1校舎通路沿いに位置するため、よく前を通りかかることになるかもしれないのがここ、生物室。五角形の特徴的な部屋構造からよくペンタゴンという愛称で呼ばれる。主に生物関係の実験を行う際に使う教室であり、顕微鏡などいろいろな器具が揃っている。気付かない生徒が多いが、人体模型が置かれているのはここ。",
+    "icon": "fas fa-bacterium",
+    "near": [
+        {
+            "name": "art-room-high",
+            "jpName": "高校美術室",
+            "icon": "fas fa-palette"
+        }
+    ],
+    "prev": {
+        "name": "shoe-rack",
+        "jpName": "下駄箱"
+    },
+    "next": {
+        "name": "art-room-high",
+        "jpName": "高校美術室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fpentagon.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -7.852439004159227,
+            "yaw": 96.32080165926646,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -9.771179110818082,
+                    "yaw": 39.912194307340194,
+                    "text": "カメ飼ってます！"
+                },
+                {
+                    "type": "info",
+                    "pitch": -11.285919605869365,
+                    "yaw": -40.57051395332775,
+                    "text": "かなりお値段が張るらしい…他の顕微鏡より性能がいい。"
+                }
+            ]
+        }
+    }
+}

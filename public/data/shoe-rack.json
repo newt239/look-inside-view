@@ -1,0 +1,44 @@
+{
+    "name": "shoe-rack",
+    "jpName": "下駄箱",
+    "schoolBuilding": "ピロティ",
+    "stair": "1階",
+    "description": "殆どの生徒の玄関口となるのがここ、下駄箱。向かいの壁には栄東の生徒が残した功績が記録されているポスターがある。靴を履き替えながら友達と談笑するのも楽しいものだが、あまり長く居座りすぎると下駄箱が混雑してしまうので注意だ。",
+    "icon": "fas fa-shoe-prints",
+    "near": [
+        {
+            "name": "piloti",
+            "jpName": "ピロティ",
+            "icon": ""
+        }
+    ],
+    "prev": {
+        "name": "pool",
+        "jpName": "プール"
+    },
+    "next": {
+        "name": "pentagon",
+        "jpName": "生物実験室"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": 8.304326221696435,
+            "yaw": -92.8964308673298,
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fshoe-rack.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 0.37050960515289194,
+                    "yaw": 86.40239786420906,
+                    "text": "ピロティへ",
+                    "URL": "view.html?name=piloti",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        }
+    }
+}

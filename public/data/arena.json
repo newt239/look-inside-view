@@ -1,0 +1,32 @@
+{
+    "name": "arena",
+    "jpName": "アリーナ",
+    "schoolBuilding": "体育館",
+    "stair": "3階",
+    "description": "体育館棟3階、体育館の全貌を見渡すことができる観客席。全校集会などの際には中央観客席周辺で吹奏楽部が演奏をしていた。また、球技大会などの際はここで競技を観戦するため、熱気あふれる空間となること間違いなしだ。",
+    "icon": "fas fa-binoculars",
+    "near": [
+        {
+            "name": "gym",
+            "jpName": "体育館",
+            "icon": "fas fa-volleyball-ball"
+        }
+    ],
+    "prev": {
+        "name": "gym",
+        "jpName": "体育館"
+    },
+    "next": {
+        "name": "praza",
+        "jpName": "プラザ"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Farena.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": 1.882725355458365,
+            "yaw": -11.174855868485144
+        }
+    }
+}

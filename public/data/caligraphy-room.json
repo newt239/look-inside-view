@@ -1,0 +1,46 @@
+{
+    "name": "caligraphy-room",
+    "jpName": "書芸室",
+    "schoolBuilding": "第2校舎",
+    "stair": "2階",
+    "description": "高校の書道の授業、及び書道部の活動で用いられる部屋。畳に座布団、そして漂う墨の匂いと和を連想させられる。この部屋で作り出された作品の数々は、校内のいたる所に展示され、学校に華を添えている。この時の撮影には間に合わなかったが、夏休み中に改装が行われたようだ。",
+    "icon": "fas fa-paint-brush",
+    "near": [
+        {
+            "name": "art-room-high",
+            "jpName": "高校美術室",
+            "icon": "fas fa-palette"
+        }
+    ],
+    "prev": {
+        "name": "art-room-high",
+        "jpName": "高校美術室"
+    },
+    "next": {
+        "name": "sewing-room",
+        "jpName": "被服室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fcaligraphy-room.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -2.96661787083917,
+            "yaw": -90.63543361796945,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -4.66125910025946,
+                    "yaw": 97.01201856731356,
+                    "text": "書道の用具入れ。とてもきれいに整理されている！"
+                },
+                {
+                    "type": "info",
+                    "pitch": -14.388904413103603,
+                    "yaw": -156.57175337712602,
+                    "text": "巨大な書道用の筆。ダイナミックな文字を書ける！"
+                }
+            ]
+        }
+    }
+}

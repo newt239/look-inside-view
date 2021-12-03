@@ -1,0 +1,68 @@
+{
+    "name": "gym-entrance",
+    "jpName": "体育館出入口",
+    "schoolBuilding": "体育館",
+    "stair": "1階",
+    "description": "各校舎から体育館棟へ移動する際に通る道。広々としていて動きやすい場所であるため、放課後は様々な部活がここを利用している。第4校舎にホームルーム教室がある高3の下駄箱はここ。",
+    "icon": "fas fa-sign-in-alt",
+    "near": [
+        {
+            "name": "gym",
+            "jpName": "体育館",
+            "icon": "fas fa-volleyball-ball"
+        },
+        {
+            "name": "home-economics-room",
+            "jpName": "家庭科室",
+            "icon": "fas fa-house-user"
+        },
+        {
+            "name": "kendo-hall",
+            "jpName": "剣道場",
+            "icon": "fas fa-vihara"
+        }
+    ],
+    "prev": {
+        "name": "library-2",
+        "jpName": "図書館2階"
+    },
+    "next": {
+        "name": "home-economics-room",
+        "jpName": "家庭科室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fgym-entrance-outside.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": 6.125162111555134,
+            "yaw": -12.184931243813114,
+            "hotSpots": [
+                {
+                    "type": "scene",
+                    "pitch": -6.240644361727197,
+                    "yaw": 4.076147809034683,
+                    "text": "体育館棟へ",
+                    "sceneId": "内側"
+                }
+            ]
+        },
+        "scenes": {
+            "内側": {
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fgym-entrance-inside.jpg?alt=media",
+                "pitch": -4.676428029967134,
+                "yaw": -118.46330013193551,
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": -10.98970845284068,
+                        "yaw": 40.53785433619819,
+                        "text": "外へ出る",
+                        "sceneId": "default"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "name": "chemistory-room",
+    "jpName": "化学室",
+    "schoolBuilding": "第2校舎",
+    "stair": "3階",
+    "description": "化学薬品を用いた実験を行う際に使われる教室。理科研究部の部室としても使われている。精密な実験のための道具や薬品、教室に入ると鼻を掠める独特な匂いは、実験好きな生徒にはたまらないものであるだろう。",
+    "near": [
+        {
+            "name": "music-room-2",
+            "jpName": "第2音楽室",
+            "icon": "fas fa-music"
+        },
+        {
+            "name": "physics-room",
+            "jpName": "物理室",
+            "icon": "fas fa-balance-scale-left"
+        }
+    ],
+    "prev": {
+        "name": "music-room-2",
+        "jpName": "第2音楽室"
+    },
+    "next": {
+        "name": "physics-room",
+        "jpName": "物理室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fchemistory-room.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -4.501844638526438,
+            "yaw": -164.92633049084745,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -21.091350824891382,
+                    "yaw": -164.13804181674956,
+                    "text": "皆一度は水が出ているときにホースの先瑞をつまんだことがあるはず…"
+                }
+            ]
+        }
+    }
+}

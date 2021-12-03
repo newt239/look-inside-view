@@ -1,0 +1,33 @@
+{
+    "name": "physics-room",
+    "jpName": "物理室",
+    "schoolBuilding": "2校舎",
+    "stair": "3階",
+    "description": "物理の実験の際に用いられる教室。写真部の部室としても使われている。壁際に並ぶ実験器具の数々は、新型コロナウイルスの影響で移動教室を使いにくい今、通常の授業教室に出張してくることもしばしば。",
+    "icon": "fas fa-balance-scale-left",
+    "near": [
+        {
+            "name": "chemistory-room",
+            "jpName": "化学室",
+            "icon": "fas fa-flask"
+        }
+    ],
+    "prev": {
+        "name": "chemistory-room",
+        "jpName": "化学室"
+    },
+    "next": {
+        "name": "multimedia-room",
+        "jpName": "第3校舎マルチメディア室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fphysics-room.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -0.6174286919026963,
+            "yaw": -3.6412409940005985,
+            "hotSpots": []
+        }
+    }
+}

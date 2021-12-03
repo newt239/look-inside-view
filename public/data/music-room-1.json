@@ -1,0 +1,45 @@
+{
+    "name": "music-room-1",
+    "jpName": "第1音楽室",
+    "schoolBuilding": "講堂棟",
+    "stair": "1階",
+    "description": "1階の講堂付近に位置する1つ目の音楽室。中学音楽の授業及びコーラス部の部室として使われている。壁にはコーラス部が大会で残した華々しい記録が掲示されている。また、この部屋は図書館前の道に面しており、放課後などに付近を通ると美しい歌声を聞くことができる。",
+    "icon": "fas fa-music",
+    "near": [
+        {
+            "name": "library-1",
+            "jpName": "図書館1階",
+            "icon": "fas fa-book"
+        },
+        {
+            "name": "auditorium",
+            "jpName": "講堂",
+            "icon": "fas fa-table-tennis"
+        }
+    ],
+    "prev": {
+        "name": "auditorium-entrance",
+        "jpName": "講堂前"
+    },
+    "next": {
+        "name": "auditorium-lecture-room-2",
+        "jpName": "講堂講義室2"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "pitch": -5.67467273168737,
+            "yaw": -107.4440893637484
+        },
+        "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fmusicroom-1.jpg?alt=media",
+        "autoLoad": true,
+        "hotSpots": [
+            {
+                "type": "info",
+                "pitch": 3.2579732686451828,
+                "yaw": -148.5290000416813,
+                "text": "コーラス部の輝かしい功績が飾られている！"
+            }
+        ]
+    }
+}

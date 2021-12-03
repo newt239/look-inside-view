@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="「栄東校内探検ツアー」へようこそ！校内の気になる施設を選んでパノラマ画像をチェックしてみましょう！">
+	<title>施設紹介 ｜ Look Inside View - shfes'21</title>
+	<link rel="apple-touch-icon" type="image/png" href="./asset/image/meta/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="./asset/image/meta/favicon.ico">
+	<!--ogp-->
+	<meta property="og:title" content="施設紹介 ｜ Look Inside View - shfes'21" />
+	<meta property="og:type" content="article" />
+	<meta property="og:description" content="「栄東校内探検ツアー」へようこそ！校内の気になる施設を選んでパノラマ画像をチェックしてみましょう！" />
+	<meta property="og:image" content="https://view.sh-fes.com/asset/image/meta/og-image.png" />
+	<meta property="og:url" content="https://view.sh-fes.com/view.html" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="theme-color" content="#e0e5ec">
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&display=swap&text=LookInsideViewag...0123456789%MB/"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./asset/style/fontawesome.min.css">
+	<link rel="stylesheet" href="./asset/style/pannellum.css" />
+	<link rel="stylesheet" href="./asset/style/style.css" />
+</head>
+
+<body>
+	<div id="backText">
+		Look <br>Inside<br> View
+	</div>
+	<div id="main">
+		<div id="header">
+			<a href="./">
+				<img id="headerImage" src="./asset/image/meta/header-logo.png" alt="logo">
+				<div id="headerText"><span>Look Inside View</span></div>
+			</a>
+		</div>
+		<div id="centerContent">
+			<div id="imageAreaWrapper">
+				<div id="panorama"></div>
+				<div class="pannellumControls">
+					<div id="pannellumZoomIn"><i class="fas fa-plus"></i></div>
+					<div id="pannellumZoomOut"><i class="fas fa-minus"></i></div>
+					<div id="pannellumFullScreen"><i class="fas fa-expand"></i></div>
+					<button id="pannellumOrientation" type="button"><i class="fas fa-crosshairs"></i></button>
+				</div>
+
+			</div>
+			<div id="textAreaWrapper">
+				<div id="textArea">
+					<div id="sceneChange"></div>
+					<h1 id="name"></h1>
+					<p id="description">データの読み込み中です。しばらく待っても表示されない場合はブラウザ設定よりキャッシュの削除をお試しください。</p>
+					<div class="block" id="buildingBlock">
+						<h2>校舎</h2>
+						<p id="building"></p>
+					</div>
+					<div class="block" id="stairBlock">
+						<h2>階</h2>
+						<p id="stair"></p>
+					</div>
+					<div class="block" id="nearBlock">
+						<h2>近くにある施設</h2>
+						<p id="near"></p>
+					</div>
+					<div class="block">
+						<div id="bottomBtnArea">
+							<div id="prevBtn">
+							</div>
+							<div id="nextBtn">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rightMenu">
+			<div class="menu">
+				<a href="./" class="eachMenuLink">
+					<div class="eachMenu">
+						<div class="gridLeft">
+							<i class="eachMenuIcon fas fa-list-ul"></i>
+						</div>
+						<div class="gridRight">
+							<span class="eachRightMenuAlt">施設一覧</span>
+						</div>
+					</div>
+				</a>
+				<a href="./about.html" class="eachMenuLink">
+					<div class="eachMenu">
+						<div class="gridLeft">
+							<i class="eachMenuIcon fas fa-info-circle"></i>
+						</div>
+						<div class="gridRight">
+							<span class="eachRightMenuAlt">企画について</span>
+						</div>
+					</div>
+				</a>
+				<a href="https://sh-fes.com" class="eachMenuLink" target="_blank" rel="noopener noreferrer">
+					<div class="eachMenu">
+						<div class="gridLeft">
+							<i class="eachMenuIcon fas fa-home"></i>
+						</div>
+						<div class="gridRight">
+							<span class="eachRightMenuAlt">栄東祭トップ</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<small>(c) 2021 栄東高校情報技術同好会</small>
+	</div>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0W226DBDTV"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-0W226DBDTV');
+	</script>
+	<script type="text/javascript" src="./asset/script/pannellum.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+	<script type="text/javascript" src="./asset/script/firestore-config.js"></script>
+	<script type="text/javascript" src="./asset/script/view.js"></script>
+</body>
+
+</html>

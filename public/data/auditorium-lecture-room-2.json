@@ -1,0 +1,49 @@
+{
+    "name": "auditorium-lecture-room-2",
+    "jpName": "講堂講義室2",
+    "schoolBuilding": "講堂棟",
+    "stair": "2階",
+    "description": "講堂の2階にある大教室。隣にはこの教室と同じ大きさの「講堂講義室1」があり、床にカーペットが敷かれている。一部の授業で使うほか、検診などでよく利用されている。",
+    "icon": "fas fa-chalkboard-teacher",
+    "near": [
+        {
+            "name": "auditorium",
+            "jpName": "講堂",
+            "icon": "fas fa-table-tennis"
+        },
+        {
+            "name": "auditorium-entrance",
+            "jpName": "講堂前"
+        }
+    ],
+    "prev": {
+        "name": "music-room-1",
+        "jpName": "第1音楽室"
+    },
+    "next": {
+        "name": "library-1",
+        "jpName": "図書館1階"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fauditorium-lecture-room-2.jpg?alt=media",
+            "pitch": 0.8858697951090949,
+            "yaw": -161.91604355342935,
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -1.4161118359100133,
+                    "yaw": 149.8545746047623,
+                    "text": "講堂講義室2を出る",
+                    "URL": "view.html?name=auditorium",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        }
+    }
+}

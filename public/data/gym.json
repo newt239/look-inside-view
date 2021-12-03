@@ -1,0 +1,50 @@
+{
+    "name": "gym",
+    "jpName": "体育館",
+    "schoolBuilding": "体育館",
+    "stair": "2階",
+    "description": "主に体育の球技の授業の際に用いられる場所。入学式や卒業式が行われるのもここ。放課後はバスケットボール部、バレーボール部、バドミントン部が入れ替わりで使用している。以前は文化祭のステージ系の出し物のメイン会場や球技大会の会場などにも使われていた。学校生活において最も足を運ぶ場所の一つとなることだろう。",
+    "icon": "fas fa-volleyball-ball",
+    "near": [
+        {
+            "name": "mini-gym",
+            "jpName": "小体育館",
+            "icon": "fas fa-walking"
+        },
+        {
+            "name": "arena",
+            "jpName": "アリーナ",
+            "icon": "fas fa-binoculars"
+        }
+    ],
+    "prev": {
+        "name": "mini-gym",
+        "jpName": "小体育館"
+    },
+    "next": {
+        "name": "arena",
+        "jpName": "アリーナ"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fgym.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -3.630410630501526,
+            "yaw": -178.69445248809933,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 8.678926351469899,
+                    "yaw": -1.3147323254336603,
+                    "text": "3階へ",
+                    "URL": "view.html?name=arena",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        }
+    }
+}

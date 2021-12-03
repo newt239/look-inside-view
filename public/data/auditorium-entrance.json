@@ -1,0 +1,77 @@
+{
+    "name": "auditorium-entrance",
+    "jpName": "講堂前",
+    "schoolBuilding": "講堂棟",
+    "stair": "1階",
+    "description": "講堂へつながるメインの扉とピロティの間にある空間。ここにある階段から講堂の二階に上がることができる。また、少し奥に進むと通路右側に音楽室があり、そのさらに奥、突き当りの扉は図書館前へとつながっている。",
+    "icon": "fas fa-sign-in-alt",
+    "near": [
+        {
+            "name": "auditorium",
+            "jpName": "講堂",
+            "icon": "fas fa-table-tennis"
+        },
+        {
+            "name": "auditorium-lecture-room-2",
+            "jpName": "講堂講義室",
+            "icon": "fas fa-chalkboard-teacher"
+        },
+        {
+            "name": "music-room-1",
+            "jpName": "第1音楽室",
+            "icon": "fas fa-music"
+        }
+    ],
+    "prev": {
+        "name": "auditorium",
+        "jpName": "講堂"
+    },
+    "next": {
+        "name": "music-room-1",
+        "jpName": "第1音楽室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fauditorium-entrance.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -4.185708063822569,
+                    "yaw": -36.860599203175056,
+                    "text": "講堂に入る",
+                    "URL": "view.html?name=auditorium",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "scene",
+                    "pitch": -1.5394553930941783,
+                    "yaw": 103.4757806956939,
+                    "text": "階段を上る",
+                    "sceneId": "2階"
+                }
+            ]
+        },
+        "scenes": {
+            "2階": {
+                "pitch": -8.14638665085425,
+                "yaw": -176.34335848625804,
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fauditorium-2.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": 14.490707909340308,
+                        "yaw": -26.466289397716377,
+                        "text": "階段を降りる",
+                        "sceneId": "default"
+                    }
+                ]
+            },
+            "isSameLocation": true
+        }
+    }
+}

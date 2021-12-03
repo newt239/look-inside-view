@@ -1,0 +1,37 @@
+{
+    "name": "music-room-2",
+    "jpName": "第2音楽室",
+    "schoolBuilding": "第2校舎",
+    "stair": "3階",
+    "description": "高校音楽の授業で使われる教室。1校舎と2校舎を繋ぐ通路の途中に位置している。休み時間にも音楽の先生がピアノを弾いていることがあり、道行く生徒たちに穏やかな安らぎをもたらしてくれる。",
+    "icon": "fas fa-music",
+    "near": [
+        {
+            "name": "pentagon",
+            "jpName": "生物実験室",
+            "icon": "fas fa-bacterium"
+        },
+        {
+            "name": "chemistory-room",
+            "jpName": "化学室",
+            "icon": "fas fa-flask"
+        }
+    ],
+    "prev": {
+        "name": "sewing-room",
+        "jpName": "被服室"
+    },
+    "next": {
+        "name": "chemistory-room",
+        "jpName": "化学室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fmusic-room-2.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -5.337437753227493,
+            "yaw": 33.631046553969334
+        }
+    }
+}

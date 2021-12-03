@@ -1,0 +1,68 @@
+{
+    "name": "general-ground",
+    "jpName": "総合グラウンド",
+    "schoolBuilding": "校外",
+    "stair": "1階",
+    "description": "栄東の校内から正門方面に少し歩くとあるグラウンド。主に体育の野球の授業及び野球部の練習場所として使用されている。マウンドや黒土、天然芝など充実した設備が整っていて、他校が練習試合でここを訪れることもある。",
+    "icon": "fas fa-baseball-ball",
+    "near": [
+        {
+            "name": "south-ground",
+            "jpName": "南グラウンド",
+            "icon": "fas fa-futbol"
+        }
+    ],
+    "prev": {
+        "name": "tennis-coat",
+        "jpName": "テニスコート"
+    },
+    "next": {
+        "name": "piloti",
+        "jpName": "ピロティ"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fgeneral-ground-stand.jpg?alt=media",
+            "pitch": -3.0638096206107415,
+            "yaw": 178.57204286513846,
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "scene",
+                    "pitch": -1.79494396604603710,
+                    "yaw": -175.69540476624144,
+                    "text": "奥へ",
+                    "sceneId": "奥"
+                }
+            ]
+        },
+        "scenes": {
+            "奥": {
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fgeneral-ground-back.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": "-1.4507921854643728",
+                        "yaw": "-11.409326849619369",
+                        "text": "スタンドへ",
+                        "sceneId": "default"
+                    },
+                    {
+                        "type": "info",
+                        "pitch": "1.0645479248715446",
+                        "yaw": " -84.15866595243715",
+                        "text": "野球の得点板。栄東野球部の進撃は続く！！"
+                    },
+                    {
+                        "type": "info",
+                        "pitch": "38.99293217570304",
+                        "yaw": "130.10147447115423",
+                        "text": "投光照明。遅くまで頑張る野球部を照らす！"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

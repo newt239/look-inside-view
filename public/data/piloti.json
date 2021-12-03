@@ -1,0 +1,131 @@
+{
+    "name": "piloti",
+    "jpName": "ピロティ",
+    "schoolBuilding": "ピロティ",
+    "stair": "1階",
+    "description": "栄東の本校舎のメインホール的空間。ここから食堂や各校舎、講堂などに直接行くことができる。また、校内で唯一携帯を使える「家庭連絡所」というスペースや購買、自販機などがあるため、生徒たちの待ち合わせ場所としてもよく使われる。",
+    "icon": "",
+    "near": [
+        {
+            "name": "dining-room",
+            "jpName": "食堂",
+            "icon": "fas fa-utensils"
+        },
+        {
+            "name": "community-hall",
+            "jpName": "コミュニティホール",
+            "icon": "fas fa-users"
+        },
+        {
+            "name": "auditorium-entrance",
+            "jpName": "講堂前",
+            "icon": "fas fa-sign-in-alt"
+        },
+        {
+            "name": "pool",
+            "jpName": "プール",
+            "icon": "fas fa-swimmer"
+        },
+        {
+            "name": "shoe-rack",
+            "jpName": "下駄箱",
+            "icon": "fas fa-shoe-prints"
+        },
+        {
+            "name": "inner-yard",
+            "jpName": "中庭",
+            "icon": "fas fa-seedling"
+        }
+    ],
+    "prev": {
+        "name": "general-ground",
+        "jpName": "総合グラウンド"
+    },
+    "next": {
+        "name": "dining-room",
+        "jpName": "食堂"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": -2.031122087557711,
+            "yaw": 51.56115595328714,
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fpiloti.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 0.2425445155302402,
+                    "yaw": 101.47333413718331,
+                    "text": "ご飯を買いに行く",
+                    "URL": "view.html?name=dining-room",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": -1.1810906693181287,
+                    "yaw": -169.81536387505878,
+                    "text": "座れる席を探す",
+                    "URL": "view.html?name=community-hall",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": 1.4423353481711243,
+                    "yaw": -86.85619293673817,
+                    "text": "講堂前へ",
+                    "URL": "view.html?name=auditorium-entrance",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": 0.9073061618576017,
+                    "yaw": -78.32298759379023,
+                    "text": "泳ぎに行く",
+                    "URL": "view.html?name=pool",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": -1.1158434790496572,
+                    "yaw": 9.324598937532457,
+                    "text": "靴を履き替えに行く",
+                    "URL": "view.html?name=shoe-rack",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": -0.6578380504855068,
+                    "yaw": 83.13416726038503,
+                    "text": "中庭に入る",
+                    "URL": "view.html?name=inner-yard",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": 5.007046545785863,
+                    "yaw": -141.18544095545855,
+                    "text": "家庭連絡所"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "name": "mini-gym",
+    "jpName": "小体育館",
+    "schoolBuilding": "体育館",
+    "stair": "1階",
+    "description": "主に卓球やダンスの授業の際に使用される小さめの体育館。木の板でできた床はある程度の衝撃を吸収するため、とんだりはねたりするときに足へのダメージを減らしてくれる。体育館片面の壁には大きな鏡があり、ダンスをする際に自分の姿を見ながら踊ることができる。また、ここはチアダンス部の部室としても使われている。放課後ここの近くを通ったときに聞こえてくるチア部の掛け声は、疲れた心を元気づけてくれることだろう。",
+    "icon": "fas fa-walking",
+    "near": [
+        {
+            "name": "zyudo-hall",
+            "jpName": "柔道場",
+            "icon": "fas fa-fist-raised"
+        }
+    ],
+    "prev": {
+        "name": "zyudo-hall",
+        "jpName": "柔道場"
+    },
+    "next": {
+        "name": "gym",
+        "jpName": "体育館"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": 4.4468850980130235,
+            "yaw": 5.983467307352441,
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fmini-gym.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 1.9145754499552776,
+                    "yaw": -177.32754608311242,
+                    "text": "テニスコートを見に行く",
+                    "URL": "view.html?name=tennis-coat",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        }
+    }
+}

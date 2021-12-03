@@ -1,0 +1,38 @@
+{
+    "name": "home-economics-room",
+    "jpName": "家庭科室",
+    "schoolBuilding": "体育館",
+    "stair": "1階",
+    "description": "調理実習の授業及び中学の家庭科の授業で用いられる、体育館棟に位置する教室。明るく清潔な空間は調理にも作業にもってこいで、家庭科部の部室としても使われている。以前までは文化祭が近づくとここの付近に手作りお菓子の甘い香りが漂い、運動部の生徒のお腹を鳴らしていた。現在は感染対策のため、この教室は使用禁止となっている。",
+    "icon": "fas fa-house-user",
+    "near": [
+        {
+            "name": "kendo-hall",
+            "jpName": "剣道場",
+            "icon": "fas fa-vihara"
+        }
+    ],
+    "prev": {
+        "name": "gym-entrance",
+        "jpName": "体育館出入口"
+    },
+    "next": {
+        "name": "kendo-hall",
+        "jpName": "剣道場"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fhome-economics-room.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -7.5361509004936105,
+                    "yaw": 22.83409714286647,
+                    "text": "ガスコンロ。炒め物はここの出番だ！"
+                }
+            ]
+        }
+    }
+}

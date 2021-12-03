@@ -1,0 +1,84 @@
+{
+    "name": "library-1",
+    "jpName": "図書館1階",
+    "schoolBuilding": "図書館",
+    "stair": "1階",
+    "description": "様々なジャンルの本が並ぶ栄東の図書館。栄東生ならいつでも本を借りることができる。図書館内にはパソコンで調べ物ができるスペースの他にも畳が敷いてある椅子などがあり、くつろぎながら読書ができる空間となっている。また、図書委員会が選んだおすすめ本が入ってすぐのスペースに展示されているため、読む本に困ったときはここに来ればいい本が見つかるかもしれない。",
+    "icon": "fas fa-book",
+    "near": [
+        {
+            "name": "auditorium",
+            "jpName": "講堂",
+            "icon": "fas fa-table-tennis"
+        },
+        {
+            "name": "library-2",
+            "jpName": "図書館2階",
+            "icon": "fas fa-book-reader"
+        }
+    ],
+    "prev": {
+        "name": "auditorium-lecture-room-2",
+        "jpName": "講堂講義室2"
+    },
+    "next": {
+        "name": "library-2",
+        "jpName": "図書館2階"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": -4.8480731411305005,
+            "yaw": 100.68807006489251,
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Flibrary-1-1.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "scene",
+                    "pitch": -8.845611877864494,
+                    "yaw": 87.0798598333489,
+                    "text": "奥へ",
+                    "sceneId": "奥"
+                },
+                {
+                    "type": "scene",
+                    "pitch": -4.433624614584054,
+                    "yaw": -79.08224350168061,
+                    "text": "図書館前へ",
+                    "sceneId": "外"
+                }
+            ]
+        },
+        "scenes": {
+            "奥": {
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Flibrary-1-2.jpg?alt=media",
+                "pitch": -7.62483616932317,
+                "yaw": -73.24137113914807,
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": -11.45408740343783,
+                        "yaw": 105.16071770381818,
+                        "text": "手前へ",
+                        "sceneId": "default"
+                    }
+                ],
+                "isSameLocation": true
+            },
+            "外": {
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Flibrary-entrance.jpg?alt=media",
+                "pitch": 3.537705362715694,
+                "yaw": -161.23450065500893,
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": 6.228614827443864,
+                        "yaw": -154.43037810086636,
+                        "text": "図書館に入る",
+                        "sceneId": "default"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

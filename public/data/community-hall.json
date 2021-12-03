@@ -1,0 +1,56 @@
+{
+    "name": "community-hall",
+    "jpName": "コミュニティホール",
+    "schoolBuilding": "ピロティ",
+    "stair": "1階",
+    "description": "主に食堂で購入した料理を食べる際に利用されるスペース。広い空間で座席数も多く、少し前までは友達と共にご飯を食べる生徒たちの活気で満ち溢れていた。新型コロナウイルスの感染対策で現在は座席ごとにパーティションが立てられ、個々人での食事が徹底されている。また、講堂へとつながる扉が見える廊下には、普段は焼きそばやできたてポテトなどが販売されている。",
+    "icon": "fas fa-users",
+    "near": [
+        {
+            "name": "dining-room",
+            "jpName": "食堂",
+            "icon": "fas fa-utensils"
+        }
+    ],
+    "prev": {
+        "name": "dining-room",
+        "jpName": "食堂"
+    },
+    "next": {
+        "name": "pool",
+        "jpName": "プール"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fcommunity-hall.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": 0,
+            "yaw": 0,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 2.8028653576520384,
+                    "yaw": -11.964107338325043,
+                    "text": "ご飯を買いに行く",
+                    "URL": "view.html?name=dining-room",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": -0.4250661069110713,
+                    "yaw": -96.11527227478199,
+                    "text": "ピロティへ行く",
+                    "URL": "view.html?name=piloti",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        }
+    }
+}

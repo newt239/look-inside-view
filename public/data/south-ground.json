@@ -1,0 +1,96 @@
+{
+    "name": "south-ground",
+    "jpName": "南グラウンド",
+    "schoolBuilding": "その他",
+    "stair": "1階",
+    "description": "通常の外体育の授業で使うグラウンド。放課後は主に、サッカー部、アメフト部、陸上部などが練習に使っている。避難訓練の際には全校生徒約2600人が集まる場所となる。",
+    "icon": "fas fa-futbol",
+    "near": [
+        {
+            "name": "general-ground",
+            "jpName": "総合グラウンド",
+            "icon": "fas fa-baseball-ball"
+        }
+    ],
+    "prev": {
+        "name": "north-gate",
+        "jpName": "北門"
+    },
+    "next": {
+        "name": "tennis-coat",
+        "jpName": "テニスコート"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fsouth-ground-1.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": 3.3372518071690545,
+            "yaw": 141.6317868673531,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -4.162988128311336,
+                    "yaw": -9.045771074376717,
+                    "text": "サッカー倉庫。サッカーボールを中心としてサッカー用具が収納されている。"
+                },
+                {
+                    "type": "scene",
+                    "pitch": -0.29275724389101165,
+                    "yaw": 129.37429419866223,
+                    "text": "校舎側へ",
+                    "sceneId": "校舎側"
+                },
+                {
+                    "type": "scene",
+                    "pitch": -2.310011555049236,
+                    "yaw": 75.36546422216632,
+                    "text": "野球練習場へ",
+                    "sceneId": "野球練習場"
+                }
+            ]
+        },
+        "scenes": {
+            "校舎側": {
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fsouth-ground-2.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": 1.1407747305743154,
+                        "yaw": 168.46195240262279,
+                        "text": "奥へ",
+                        "sceneId": "default"
+                    },
+                    {
+                        "type": "scene",
+                        "pitch": -1.6606194598907063,
+                        "yaw": -134.0087127639295,
+                        "text": "野球練習場へ",
+                        "sceneId": "野球練習場"
+                    }
+                ],
+                "isSameLocation": true
+            },
+            "野球練習場": {
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fsouth-ground-3.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": -1.0989162762779068,
+                        "yaw": 69.52259298238263,
+                        "text": "奥へ",
+                        "sceneId": "default"
+                    },
+                    {
+                        "type": "scene",
+                        "pitch": 0,
+                        "yaw": 0,
+                        "text": "校舎側へ",
+                        "sceneId": "校舎側"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "dining-room",
+    "jpName": "食堂",
+    "schoolBuilding": "ピロティ",
+    "stair": "1階",
+    "description": "月曜日から土曜日まで営業されている、栄東の食堂。SCCがある高校生のため、夜遅くまで営業している日もある。丼もの、麺系、日替わり定食などのメニューは曜日ごとに変わり、毎日食堂を利用していても飽きが来ない。また、少量の追加料金で大盛りにしてもらうこともできるため、たくさん食べたい人も満足することができるだろう。",
+    "icon": "fas fa-utensils",
+    "near": [
+        {
+            "name": "community-hall",
+            "jpName": "コミュニティホール",
+            "icon": "fas fa-users"
+        }
+    ],
+    "prev": {
+        "name": "piloti",
+        "jpName": "ピロティ"
+    },
+    "next": {
+        "name": "community-hall",
+        "jpName": "コミュニティホール"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fdining-room.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": 0,
+            "yaw": 0,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 3.6743417731589214,
+                    "yaw": 51.145649806870615,
+                    "text": "座れる席を探す",
+                    "URL": "view.html?name=community-hall",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": -1.1642102906422822,
+                    "yaw": 176.34562988756642,
+                    "text": "ピロティへ行く",
+                    "URL": "view.html?name=piloti",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        }
+    }
+}

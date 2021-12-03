@@ -1,0 +1,30 @@
+{
+    "name": "audiovisual-room",
+    "jpName": "視聴覚室",
+    "schoolBuilding": "その他",
+    "stair": "3階",
+    "description": "レセプションホール棟3階に位置する広々とした教室。授業内で映像を視聴する際などに用いられる。また、ここは高校SCC( Sakaehigashi Career Club )の授業教室としても用いられる。中学生のうちはあまり使う機会がないかもしれないが、高校生にとっては馴染み深い教室と言えるだろう。",
+    "icon": "fas fa-photo-video",
+    "near": [
+        {
+            "name": "physics-room",
+            "jpName": "物理室",
+            "icon": "fas fa-balance-scale-left"
+        }
+    ],
+    "prev": {
+        "name": "CC-hall",
+        "jpName": "CCホール"
+    },
+    "next": {
+        "name": "main-gate",
+        "jpName": "正門"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Faudiovisual-room.jpg?alt=media",
+            "autoLoad": true
+        }
+    }
+}

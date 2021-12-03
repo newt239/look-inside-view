@@ -1,0 +1,37 @@
+{
+    "name": "kendo-hall",
+    "jpName": "剣道場",
+    "schoolBuilding": "体育館",
+    "stair": "1階",
+    "description": "主に体育の剣道の授業の際用いられている部屋。上履きでの入室はできず、靴下か裸足で入る必要がある。竹刀や木刀、実際の日本刀のレプリカなどもあり、剣道を体感できる場所となっている。また、放課後は剣道部の部室としても使われており、剣道部員たちの熱気に満ちあふれる空間となる。",
+    "icon": "fas fa-vihara",
+    "near": [
+        {
+            "name": "zyudo-hall",
+            "jpName": "柔道場",
+            "icon": "fas fa-fist-raised"
+        },
+        {
+            "name": "gym-entrance",
+            "jpName": "体育館出入口",
+            "icon": "fas fa-sign-in-alt"
+        }
+    ],
+    "prev": {
+        "name": "home-economics-room",
+        "jpName": "家庭科室"
+    },
+    "next": {
+        "name": "zyudo-hall",
+        "jpName": "柔道場"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fkendo-hall.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -1.593516435662861,
+            "yaw": -179.68879419293103
+        }
+    }
+}

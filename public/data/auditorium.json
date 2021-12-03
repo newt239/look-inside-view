@@ -1,0 +1,97 @@
+{
+    "name": "auditorium",
+    "jpName": "講堂",
+    "schoolBuilding": "講堂棟",
+    "stair": "1階",
+    "description": "ピロティからすぐのところにある広い空間。説明会などの際に利用されることも多いが、普段は体育の授業で使われる場所だ。1階の900席ある座席は可動式となっており、普段は収納されている。また、放課後は主に卓球部と吹奏楽部の練習場として使われている。エアコンも付いているため、高校の学年集会などで利用されることもある。",
+    "icon": "fas fa-table-tennis",
+    "near": [
+        {
+            "name": "auditorium-lecture-room-2",
+            "jpName": "講堂講義室",
+            "icon": "fas fa-chalkboard-teacher"
+        },
+        {
+            "name": "music-room-1",
+            "jpName": "第1音楽室",
+            "icon": "fas fa-music"
+        }
+    ],
+    "prev": {
+        "name": "6th-6501",
+        "jpName": "6501教室"
+    },
+    "next": {
+        "name": "auditorium-entrance",
+        "jpName": "講堂前"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": -9.447952932546919,
+            "yaw": -128.4828287376028,
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fauditorium.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -2.5153754334258474,
+                    "yaw": 24.256632007442537,
+                    "text": "収納されているときはこんな感じ。"
+                },
+                {
+                    "type": "scene",
+                    "pitch": 8.505682944639146,
+                    "yaw": 51.83112625598302,
+                    "text": "2階へ",
+                    "sceneId": "2階"
+                },
+                {
+                    "type": "info",
+                    "pitch": 0.07549350234323605,
+                    "yaw": 99.08396812388469,
+                    "text": "講堂を出る",
+                    "URL": "view.html?name=auditorium-entrance",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        },
+        "scenes": {
+            "2階": {
+                "pitch": -9.474761967601095,
+                "yaw": -174.26430999936687,
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fauditorium-2.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": -16.091465636183223,
+                        "yaw": -178.32648091047454,
+                        "text": "1階へ",
+                        "sceneId": "auditorium"
+                    },
+                    {
+                        "type": "info",
+                        "pitch": -1.32220384294828,
+                        "yaw": 151.50598773451253,
+                        "text": "栄東校歌。なかなか良い曲！"
+                    },
+                    {
+                        "type": "info",
+                        "pitch": 11.283161319065485,
+                        "yaw": -27.360116910832108,
+                        "text": "階段を下りる",
+                        "URL": "view.html?name=auditorium-entrance",
+                        "attributes": {
+                            "target": "_self"
+                        },
+                        "cssClass": "sceneMove"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

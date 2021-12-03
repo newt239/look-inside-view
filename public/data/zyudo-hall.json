@@ -1,0 +1,51 @@
+{
+    "name": "zyudo-hall",
+    "jpName": "柔道場",
+    "schoolBuilding": "体育館",
+    "stair": "1階",
+    "description": "主に柔道部の練習場として用いられる部屋。体育の授業やチアダンス部でダンスの練習に使われることもある。床一面の畳が発する独特の匂いや部屋の隅にある筋トレ用具たちは、その場の雰囲気を際立たせ、心地よい緊張感を与えてくれることだろう。",
+    "icon": "fas fa-fist-raised",
+    "near": [
+        {
+            "name": "kendo-hall",
+            "jpName": "剣道場",
+            "icon": "fas fa-vihara"
+        },
+        {
+            "name": "mini-gym",
+            "jpName": "小体育館",
+            "icon": "fas fa-walking"
+        }
+    ],
+    "prev": {
+        "name": "kendo-hall",
+        "jpName": "剣道場"
+    },
+    "next": {
+        "name": "mini-gym",
+        "jpName": "小体育館"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fzyudo-hall.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": 4.8976323681304645,
+            "yaw": -152.5470130785799,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -9.424631533527595,
+                    "yaw": -23.60418852370442,
+                    "text": "年季の入ったベンチプレス。これこそが努力の証。"
+                },
+                {
+                    "type": "info",
+                    "pitch": 1.7042898937401139,
+                    "yaw": 22.568869569588742,
+                    "text": "柔道の心得。"
+                }
+            ]
+        }
+    }
+}

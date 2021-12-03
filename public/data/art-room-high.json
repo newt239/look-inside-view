@@ -1,0 +1,40 @@
+{
+    "name": "art-room-high",
+    "jpName": "高校美術室",
+    "schoolBuilding": "第2校舎",
+    "stair": "2階",
+    "description": "高校美術の授業、及び美術部の活動に用いられる教室。この教室の他に、体育館1階にも主に中学の授業で利用されている美術室がある。栄東の芸術が凝縮された空間であり、壁一面に美しい絵や作品が並んでいる。ひとたび足を踏み入れれば、美術の世界に圧倒されることだろう。",
+    "icon": "fas fa-palette",
+    "near": [
+        {
+            "name": "caligraphy-room",
+            "jpName": "書芸室",
+            "icon": "fas fa-paint-brush"
+        }
+    ],
+    "prev": {
+        "name": "pentagon",
+        "jpName": "生物実験室"
+    },
+    "next": {
+        "name": "caligraphy-room",
+        "jpName": "書芸室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fart-room-high.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -17.917015561638056,
+            "yaw": -165.0074937742832,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -38.54889467774194,
+                    "yaw": -128.24346397860864,
+                    "text": "校長先生に似ているような気が…"
+                }
+            ]
+        }
+    }
+}

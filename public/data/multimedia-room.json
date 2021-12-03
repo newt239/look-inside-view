@@ -1,0 +1,33 @@
+{
+    "name": "multimedia-room",
+    "jpName": "第3校舎マルチメディア室",
+    "schoolBuilding": "第3校舎",
+    "stair": "3階",
+    "description": "一部の情報の授業や土曜ALの講座で使う教室。技術の授業などで主に利用されているのは第2校舎2階にあるマルチメディア室で、私達情報技術同好会の部室もその教室である。設置されているパソコンは、昨年満を持してWindows10に移行。",
+    "icon": "fas fa-desktop",
+    "near": [
+        {
+            "name": "physics-room",
+            "jpName": "物理室",
+            "icon": "fas fa-balance-scale-left"
+        }
+    ],
+    "prev": {
+        "name": "physics-room",
+        "jpName": "物理室"
+    },
+    "next": {
+        "name": "4th-entrance-hall",
+        "jpName": "第4校舎エントランスホール"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fmultimedia-room.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -1.9991599551258905,
+            "yaw": -171.63941994405195,
+            "hotSpots": []
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "",
+    "jpName": "",
+    "schoolBuilding": "",
+    "stair": "",
+    "description": "",
+    "icon": "",
+    "near": [
+        {
+            "name": "",
+            "jpName": "",
+            "icon": ""
+        }
+    ],
+    "prev": {
+        "name": "",
+        "jpName": ""
+    },
+    "next": {
+        "name": "",
+        "jpName": ""
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fpraza.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "scene",
+                    "pitch": 0,
+                    "yaw": 0,
+                    "text": "0",
+                    "sceneId": ""
+                }
+            ]
+        }
+    }
+}

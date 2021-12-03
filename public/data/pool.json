@@ -1,0 +1,45 @@
+{
+    "name": "pool",
+    "jpName": "プール",
+    "schoolBuilding": "ピロティ",
+    "stair": "1階",
+    "description": "ピロティから行くことができる室内の温水プール。体育の水泳の授業のほか、放課後は水泳部が練習に使っている。広々としたこの空間はプールで快適に泳ぐのにピッタリで、プールの授業は体育の授業の中でも高い人気を博している。また2階はトレーニングルームとなっており、時々アメフト部が利用している。",
+    "icon": "fas fa-swimmer",
+    "near": [
+        {
+            "name": "piloti",
+            "jpName": "ピロティ",
+            "icon": ""
+        },
+        {
+            "name": "shoe-rack",
+            "jpName": "下駄箱",
+            "icon": "fas fa-shoe-prints"
+        }
+    ],
+    "prev": {
+        "name": "community-hall",
+        "jpName": "コミュニティホール"
+    },
+    "next": {
+        "name": "shoe-rack",
+        "jpName": "下駄箱"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fpool.jpg?alt=media",
+            "pitch": -1.3952463556530055,
+            "yaw": 12.971471044248485,
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 28.152332544357005,
+                    "yaw": 179.4847821333517,
+                    "text": "トレーニングルーム"
+                }
+            ]
+        }
+    }
+}

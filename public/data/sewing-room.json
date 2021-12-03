@@ -1,0 +1,32 @@
+{
+    "name": "sewing-room",
+    "jpName": "被服室",
+    "schoolBuilding": "第2校舎",
+    "stair": "2階",
+    "description": "高校の家庭科の授業、特に裁縫をする際に用いられる教室。去年新しく新設された教室だが、新型コロナウイルスの感染対策でまだ授業では一度も利用されていない。中学マルチメディア室の隣に位置している。スッキリした空間での裁縫で、作業に集中できるだけでなく新たなアイデアが浮かんでくるかもしれない。",
+    "icon": "fas fa-tshirt",
+    "near": [
+        {
+            "name": "CC-hall",
+            "jpName": "CCホール",
+            "icon": "fas fa-chair"
+        }
+    ],
+    "prev": {
+        "name": "caligraphy-room",
+        "jpName": "書芸室"
+    },
+    "next": {
+        "name": "music-room-2",
+        "jpName": "第2音楽室"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": -1.7502091658939003,
+            "yaw": 14.7234408860296,
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fsewing-room.jpg?alt=media",
+            "autoLoad": true
+        }
+    }
+}

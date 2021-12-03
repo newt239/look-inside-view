@@ -1,0 +1,49 @@
+{
+    "name": "sakaehigashi-temmangu",
+    "jpName": "栄東天満宮",
+    "schoolBuilding": "校外",
+    "stair": "1階",
+    "description": "本校舎と第4校舎とを繋ぐ通路の傍らに建つ、栄東生しか参拝できない神社。学問の神、菅原道真公を祀る社のほか、「天神様と牛」として道真公と縁の深い牛の石像もある。また、周囲には栄東の同窓生たちが寄贈した石柵が並んでいる。試験の前にここで参拝すれば、点数が良くなるかもしれない。",
+    "icon": "fas fa-torii-gate",
+    "near": [
+        {
+            "name": "zuisoan",
+            "jpName": "瑞想庵",
+            "icon": "fas fa-cookie-bite"
+        },
+        {
+            "name": "auditorium",
+            "jpName": "講堂",
+            "icon": "fas fa-table-tennis"
+        }
+    ],
+    "prev": {
+        "name": "zuisoan",
+        "jpName": "瑞想庵"
+    },
+    "next": {
+        "name": "CC-hall",
+        "jpName": "CCホール"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fsakaehigashi-temmangu.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -33.48281156847521,
+                    "yaw": 78.32471611961418,
+                    "text": "立派な手水舎。参拝するのはしっかり身を清めてから！"
+                },
+                {
+                    "type": "info",
+                    "pitch": -26.966836849623604,
+                    "yaw": -104.66906289619888,
+                    "text": "天神様と牛。参拝した時には牛の頭をなでなでしよう！"
+                }
+            ]
+        }
+    }
+}

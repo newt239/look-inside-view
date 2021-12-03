@@ -1,0 +1,32 @@
+{
+    "name": "CC-hall",
+    "jpName": "CCホール",
+    "schoolBuilding": "第2校舎から講堂へ向かう通路",
+    "stair": "2階",
+    "description": "食堂の真上に位置する集会室。500席に及ぶ座席の多さとエアコンが効く利便性から、学年集会や教師の会議などに用いられる。近年では中学生が入学式開式前に待機する場所にもなっていて、ここも学校生活において馴染み深い場所になることであろう。",
+    "icon": "fas fa-chair",
+    "near": [
+        {
+            "name": "sewing-room",
+            "jpName": "被服室",
+            "icon": "fas fa-tshirt"
+        }
+    ],
+    "prev": {
+        "name": "sakaehigashi-temmangu",
+        "jpName": "栄東天満宮"
+    },
+    "next": {
+        "name": "audiovisual-room",
+        "jpName": "視聴覚室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2FCC-hall.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -4.315830864955693,
+            "yaw": 173.28909151615898
+        }
+    }
+}

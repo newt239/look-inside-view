@@ -1,0 +1,74 @@
+{
+    "name": "tennis-coat",
+    "jpName": "テニスコート",
+    "schoolBuilding": "その他",
+    "stair": "1階",
+    "description": "体育館棟のとなりに位置していて、体育のテニスの授業及びテニス部の練習で使われる場所。晴れるとコートの大半が日向となるため、暑い夏には注意が必要だ。",
+    "icon": "fab fa-pagelines",
+    "near": [
+        {
+            "name": "mini-gym",
+            "jpName": "小体育館",
+            "icon": "fas fa-walking"
+        },
+        {
+            "name": "north-gate",
+            "jpName": "北門",
+            "icon": "fas fa-archway"
+        }
+    ],
+    "prev": {
+        "name": "south-ground",
+        "jpName": "南グラウンド"
+    },
+    "next": {
+        "name": "general-ground",
+        "jpName": "総合グラウンド"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": 2.1044755667602617,
+            "yaw": 179.95847288153598,
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fteniss-coat-1.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "scene",
+                    "pitch": 3.564707110285615,
+                    "yaw": -172.31907051857846,
+                    "text": "奥へ",
+                    "sceneId": "奥"
+                },
+                {
+                    "type": "info",
+                    "pitch": 2.3087528127936623,
+                    "yaw": -54.17894085209275,
+                    "text": "小体育館を見に行く",
+                    "URL": "view.html?name=mini-gym",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        },
+        "scenes": {
+            "奥": {
+                "pitch": -0.09539394570021913,
+                "yaw": 83.59312984929082,
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fteniss-coat-2.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": 1.9239959790246755,
+                        "yaw": 108.72180091372657,
+                        "text": "手前へ",
+                        "sceneId": "default"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

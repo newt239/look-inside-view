@@ -1,0 +1,27 @@
+{
+    "name": "6th-6501",
+    "jpName": "6501教室",
+    "schoolBuilding": "第6校舎",
+    "stair": "5階",
+    "description": "一番新しい校舎である第6校舎の一番上に位置する、栄東の中でも最大級の教室。晴れた日には富士山が見える、素敵な教室だ。ここに行く際は第6校舎の階段を使う必要があるため、注意が必要だ。",
+    "icon": "fas fa-pencil-alt",
+    "near": [],
+    "prev": {
+        "name": "4th-entrance-hall",
+        "jpName": "第4校舎エントランスホール"
+    },
+    "next": {
+        "name": "auditorium",
+        "jpName": "講堂"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2F6th-6501.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -1.5036751656530405,
+            "yaw": 173.28506164101645,
+            "hotSpots": []
+        }
+    }
+}

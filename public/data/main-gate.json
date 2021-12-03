@@ -1,0 +1,40 @@
+{
+    "name": "main-gate",
+    "jpName": "正門",
+    "schoolBuilding": "校外",
+    "stair": "1階",
+    "description": "校舎から南グラウンド側に行くとある門。あまり目立たない門が正門と呼ばれる理由はこの門が栄東高校創立時からあるからだが、今となってはその理由を知るものは少ない。",
+    "icon": "fas fa-archway",
+    "near": [
+        {
+            "name": "south-ground",
+            "jpName": "南グラウンド",
+            "icon": "fas fa-futbol"
+        }
+    ],
+    "prev": {
+        "name": "audiovisual-room",
+        "jpName": "視聴覚室"
+    },
+    "next": {
+        "name": "north-gate",
+        "jpName": "北門"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fmain-gate.jpg?alt=media",
+            "autoLoad": true,
+            "pitch": -4.495306853882313,
+            "yaw": -3.1575349990697945,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 7.5021881864682,
+                    "yaw": -128.24605687244122,
+                    "text": "総合グラウンド"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "name": "north-gate",
+    "jpName": "北門",
+    "schoolBuilding": "その他",
+    "stair": "1階",
+    "description": "多くの生徒が通る、一番目立つ門がここ北門。図書館棟、第4校舎、体育館棟を見渡せる。また、体育館棟手前の通路を歩いていくとテニスコートに行くことができる。",
+    "icon": "fas fa-sign-in-alt",
+    "near": [
+        {
+            "name": "gym-entrance",
+            "jpName": "体育館出入口",
+            "icon": "fas fa-sign-in-alt"
+        },
+        {
+            "name": "tennis-coat",
+            "jpName": "テニスコート",
+            "icon": "fab fa-pagelines"
+        },
+        {
+            "name": "library-1",
+            "jpName": "図書館1階",
+            "icon": "fas fa-book"
+        }
+    ],
+    "prev": {
+        "name": "main-gate",
+        "jpName": "正門"
+    },
+    "next": {
+        "name": "south-ground",
+        "jpName": "南グラウンド"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": 4.818561797437209,
+            "yaw": -9.372781475397138,
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fnorth-gate.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 0.14410623909196038,
+                    "yaw": 20.639603677762853,
+                    "text": "体育館出入り口",
+                    "URL": "view.html?name=gym-entrance",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": -0.09993714778954334,
+                    "yaw": -91.76734179618067,
+                    "text": "図書館",
+                    "URL": "view.html?name=library-1",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                },
+                {
+                    "type": "info",
+                    "pitch": 3.776271664343207,
+                    "yaw": 102.94152229649511,
+                    "text": "テニスコート",
+                    "URL": "view.html?name=tennis-coat",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        }
+    }
+}

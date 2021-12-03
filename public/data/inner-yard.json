@@ -1,0 +1,49 @@
+{
+    "name": "inner-yard",
+    "jpName": "中庭",
+    "schoolBuilding": "その他",
+    "stair": "1階",
+    "description": "ピロティ横、自販機エリアとつながる中庭。例年の文化祭では高校3年生が出店を出す場所として使用されていた。普段は中学生が技術の授業で育てる植物たちのすみかとなっている。廊下からぼんやり眺めるのに適した場所だ。",
+    "near": [
+        {
+            "name": "dining-room",
+            "jpName": "食堂",
+            "icon": "fas fa-utensils"
+        }
+    ],
+    "prev": {
+        "name": "praza",
+        "jpName": "プラザ"
+    },
+    "next": {
+        "name": "zuisoan",
+        "jpName": "瑞想庵"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Finner-yard.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": 0.27707095007660976,
+                    "yaw": 7.111482046064905,
+                    "text": "第一職員室。とっても優しい中学担当の先生を中心とした職員室"
+                },
+                {
+                    "type": "info",
+                    "pitch": -11.146653639229669,
+                    "yaw": -76.06545732054076,
+                    "text": "生徒たちの育てている植物たち。ニチニチソウをメインに育てている。"
+                },
+                {
+                    "type": "info",
+                    "pitch": 62.90325588560587,
+                    "yaw": -84.60281709760733,
+                    "text": "いいお天気だねー!きっといいことあるよ♡"
+                }
+            ]
+        }
+    }
+}

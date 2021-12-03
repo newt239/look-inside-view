@@ -1,0 +1,124 @@
+{
+    "name": "zuisoan",
+    "jpName": "瑞想庵",
+    "schoolBuilding": "その他",
+    "stair": "1階",
+    "description": "本校舎と第4校舎との間に位置する、周辺の庭を含む美しい茶室。茶道部の部室として使われている。清潔で美しい室内から見える池や植物は、心を落ち着かせ和の空間としてのこの場所を強く引き立てる。また、年に一度生徒の学業成就と健康を祈る法要会は、ここの仏像がある部屋で行われる。",
+    "icon": "fas fa-cookie-bite",
+    "near": [
+        {
+            "name": "sakaehigashi-temmangu",
+            "jpName": "栄東天満宮",
+            "icon": "fas fa-torii-gate"
+        }
+    ],
+    "prev": {
+        "name": "inner-yard",
+        "jpName": "中庭"
+    },
+    "next": {
+        "name": "sakaehigashi-temmangu",
+        "jpName": "栄東天満宮"
+    },
+    "pannellum": {
+        "default": {
+            "pitch": 1.9809101290602014,
+            "yaw": 177.6607997579862,
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fzuisoan-entrance.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "scene",
+                    "pitch": 3.366123539454723,
+                    "yaw": 157.54368991394838,
+                    "text": "中に入る",
+                    "sceneId": "部屋1"
+                },
+                {
+                    "type": "info",
+                    "pitch": 0.4864050589852763,
+                    "yaw": -92.95941320322214,
+                    "text": "参拝しに行く",
+                    "URL": "view.html?name=sakaehigashi-temmangu",
+                    "attributes": {
+                        "target": "_self"
+                    },
+                    "cssClass": "sceneMove"
+                }
+            ]
+        },
+        "scenes": {
+            "部屋1": {
+                "pitch": 0.7193782321762321,
+                "yaw": -171.83577236872563,
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fzuisoan-room1.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": -1.7276241901616045,
+                        "yaw": -118.13125737850032,
+                        "text": "外に出る",
+                        "sceneId": "default"
+                    },
+                    {
+                        "type": "scene",
+                        "pitch": -4.079847807000717,
+                        "yaw": 157.26204073477425,
+                        "text": "隣の部屋に入る",
+                        "sceneId": "部屋2"
+                    }
+                ],
+                "isSameLocation": true
+            },
+            "部屋2": {
+                "pitch": -1.1328641646612727,
+                "yaw": 60.96179275964096,
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fzuisoan-room2.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": -4.251926073163177,
+                        "yaw": 138.39123873875516,
+                        "text": "前の部屋へ戻る",
+                        "sceneId": "部屋1"
+                    },
+                    {
+                        "type": "scene",
+                        "pitch": -9.18495733517187,
+                        "yaw": -125.90394238648898,
+                        "text": "障子を開く",
+                        "sceneId": "裏口"
+                    }
+                ],
+                "isSameLocation": true
+            },
+            "裏口": {
+                "pitch": 0,
+                "yaw": 0,
+                "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2Fzuisoan-backdoor.jpg?alt=media",
+                "hotSpots": [
+                    {
+                        "type": "scene",
+                        "pitch": 24.27488976188849,
+                        "yaw": -178.1876061751029,
+                        "text": "部屋に戻って障子を閉める",
+                        "sceneId": "部屋2"
+                    },
+                    {
+                        "type": "info",
+                        "pitch": 4.856173836351995,
+                        "yaw": 168.75509452249705,
+                        "text": "閉めるとこんな感じ"
+                    },
+                    {
+                        "type": "info",
+                        "pitch": 0,
+                        "yaw": 0,
+                        "text": "瑞想庵の裏口"
+                    }
+                ],
+                "isSameLocation": true
+            }
+        }
+    }
+}

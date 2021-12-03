@@ -1,0 +1,43 @@
+{
+    "name": "4th-entrance-hall",
+    "jpName": "第4校舎エントランスホール",
+    "schoolBuilding": "第4校舎",
+    "stair": "1階",
+    "description": "本校舎から出る渡り廊下と第4校舎とをつなげる場所。職員室の横に位置する開けたスペースにはホワイトボードがあり、授業の質問や進路相談などをしている生徒がよく見られる。",
+    "icon": "fas fa-door-open",
+    "near": [
+        {
+            "name": "gym-entrance",
+            "jpName": "体育館出入口",
+            "icon": "fas fa-sign-in-alt"
+        },
+        {
+            "name": "sakaehigashi-temmangu",
+            "jpName": "栄東天満宮",
+            "icon": "fas fa-torii-gate"
+        }
+    ],
+    "prev": {
+        "name": "multimedia-room",
+        "jpName": "第3校舎マルチメディア室"
+    },
+    "next": {
+        "name": "6th-6501",
+        "jpName": "6501教室"
+    },
+    "pannellum": {
+        "default": {
+            "type": "equirectangular",
+            "panorama": "https://firebasestorage.googleapis.com/v0/b/look-inside-view.appspot.com/o/panorama%2F4th-entrance-hall.jpg?alt=media",
+            "autoLoad": true,
+            "hotSpots": [
+                {
+                    "type": "info",
+                    "pitch": -9.89717618880624,
+                    "yaw": 109.93049743743983,
+                    "text": "エレベーターは校内にはここともう一箇所だけ！"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,377 @@
+{
+    "list": [
+        {
+            "name": "piloti",
+            "jpName": "ピロティ",
+            "sort": 0,
+            "list": [
+                {
+                    "name": "1s",
+                    "jpName": "1階",
+                    "list": [
+                        {
+                            "name": "piloti",
+                            "jpName": "ピロティ",
+                            "icon": "fas fa-school"
+                        },
+                        {
+                            "name": "dining-room",
+                            "jpName": "食堂",
+                            "icon": "fas fa-utensils"
+                        },
+                        {
+                            "name": "community-hall",
+                            "jpName": "コミュニティホール",
+                            "icon": "fas fa-users"
+                        },
+                        {
+                            "name": "pool",
+                            "jpName": "プール",
+                            "icon": "fas fa-swimmer"
+                        },
+                        {
+                            "name": "shoe-rack",
+                            "jpName": "下駄箱",
+                            "icon": "fas fa-shoe-prints"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "1st",
+            "jpName": "第1校舎",
+            "sort": 1,
+            "list": [
+                {
+                    "name": "3s",
+                    "jpName": "3階",
+                    "list": [
+                        {
+                            "name": "pentagon",
+                            "jpName": "生物実験室",
+                            "icon": "fas fa-bacterium"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2nd",
+            "jpName": "第2校舎",
+            "sort": 2,
+            "list": [
+                {
+                    "name": "2s",
+                    "jpName": "2階",
+                    "list": [
+                        {
+                            "name": "art-room-high",
+                            "jpName": "高校美術室",
+                            "icon": "fas fa-palette"
+                        },
+                        {
+                            "name": "caligraphy-room",
+                            "jpName": "書芸室",
+                            "icon": "fas fa-paint-brush"
+                        },
+                        {
+                            "name": "sewing-room",
+                            "jpName": "被服室",
+                            "icon": "fas fa-tshirt"
+                        }
+                    ]
+                },
+                {
+                    "name": "3s",
+                    "jpName": "3階",
+                    "list": [
+                        {
+                            "name": "music-room-2",
+                            "jpName": "第2音楽室",
+                            "icon": "fas fa-music"
+                        },
+                        {
+                            "name": "chemistory-room",
+                            "jpName": "化学室",
+                            "icon": "fas fa-flask"
+                        },
+                        {
+                            "name": "physics-room",
+                            "jpName": "物理室",
+                            "icon": "fas fa-balance-scale-left"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "3rd",
+            "jpName": "第3校舎",
+            "sort": 3,
+            "list": [
+                {
+                    "name": "3s",
+                    "jpName": "3階",
+                    "list": [
+                        {
+                            "name": "multimedia-room",
+                            "jpName": "第3校舎マルチメディア室",
+                            "icon": "fas fa-desktop"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "4th",
+            "jpName": "第4校舎",
+            "sort": 4,
+            "list": [
+                {
+                    "name": "1s",
+                    "jpName": "1階",
+                    "list": [
+                        {
+                            "name": "4th-entrance-hall",
+                            "jpName": "第4校舎エントランスホール",
+                            "icon": "fas fa-door-open"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "6th",
+            "jpName": "第6校舎",
+            "sort": 5,
+            "list": [
+                {
+                    "name": "5s",
+                    "jpName": "5階",
+                    "list": [
+                        {
+                            "name": "6th-6501",
+                            "jpName": "6501教室",
+                            "icon": "fas fa-pencil-alt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "auditorium",
+            "jpName": "講堂棟",
+            "sort": 6,
+            "list": [
+                {
+                    "name": "1s",
+                    "jpName": "1階",
+                    "list": [
+                        {
+                            "name": "auditorium",
+                            "jpName": "講堂",
+                            "icon": "fas fa-table-tennis"
+                        },
+                        {
+                            "name": "auditorium-entrance",
+                            "jpName": "講堂前",
+                            "icon": "fas fa-sign-in-alt"
+                        },
+                        {
+                            "name": "music-room-1",
+                            "jpName": "第1音楽室",
+                            "icon": "fas fa-music"
+                        }
+                    ]
+                },
+                {
+                    "name": "2s",
+                    "jpName": "2階",
+                    "list": [
+                        {
+                            "name": "auditorium-lecture-room-2",
+                            "jpName": "講堂講義室2",
+                            "icon": "fas fa-chalkboard-teacher"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "library",
+            "jpName": "図書館",
+            "sort": 7,
+            "list": [
+                {
+                    "name": "1s",
+                    "jpName": "1階",
+                    "list": [
+                        {
+                            "name": "library-1",
+                            "jpName": "図書館1階",
+                            "icon": "fas fa-book"
+                        }
+                    ]
+                },
+                {
+                    "name": "2s",
+                    "jpName": "2階",
+                    "list": [
+                        {
+                            "name": "library-2",
+                            "jpName": "図書館2階",
+                            "icon": "fas fa-book-reader"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "gym",
+            "jpName": "体育館",
+            "sort": 8,
+            "list": [
+                {
+                    "name": "1s",
+                    "jpName": "1階",
+                    "list": [
+                        {
+                            "name": "gym-entrance",
+                            "jpName": "体育館出入口",
+                            "icon": "fas fa-sign-in-alt"
+                        },
+                        {
+                            "name": "home-economics-room",
+                            "jpName": "家庭科室",
+                            "icon": "fas fa-house-user"
+                        },
+                        {
+                            "name": "kendo-hall",
+                            "jpName": "剣道場",
+                            "icon": "fas fa-vihara"
+                        },
+                        {
+                            "name": "zyudo-hall",
+                            "jpName": "柔道場",
+                            "icon": "fas fa-fist-raised"
+                        },
+                        {
+                            "name": "mini-gym",
+                            "jpName": "小体育館",
+                            "icon": "fas fa-walking"
+                        }
+                    ]
+                },
+                {
+                    "name": "2s",
+                    "jpName": "2階",
+                    "list": [
+                        {
+                            "name": "gym",
+                            "jpName": "体育館",
+                            "icon": "fas fa-volleyball-ball"
+                        }
+                    ]
+                },
+                {
+                    "name": "3s",
+                    "jpName": "3階",
+                    "list": [
+                        {
+                            "name": "arena",
+                            "jpName": "アリーナ",
+                            "icon": "fas fa-binoculars"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "others",
+            "jpName": "その他",
+            "sort": 9,
+            "list": [
+                {
+                    "name": "1s",
+                    "jpName": "1階",
+                    "list": [
+                        {
+                            "name": "praza",
+                            "jpName": "プラザ",
+                            "icon": "fas fa-sign-in-alt"
+                        },
+                        {
+                            "name": "inner-yard",
+                            "jpName": "中庭",
+                            "icon": "fas fa-seedling"
+                        },
+                        {
+                            "name": "zuisoan",
+                            "jpName": "瑞想庵",
+                            "icon": "fas fa-cookie-bite"
+                        },
+                        {
+                            "name": "sakaehigashi-temmangu",
+                            "jpName": "栄東天満宮",
+                            "icon": "fas fa-torii-gate"
+                        }
+                    ]
+                },
+                {
+                    "name": "2s",
+                    "jpName": "2階",
+                    "list": [
+                        {
+                            "name": "CC-hall",
+                            "jpName": "CCホール",
+                            "icon": "fas fa-chair"
+                        }
+                    ]
+                },
+                {
+                    "name": "3s",
+                    "jpName": "3階",
+                    "list": [
+                        {
+                            "name": "audiovisual-room",
+                            "jpName": "視聴覚室",
+                            "icon": "fas fa-photo-video"
+                        }
+                    ]
+                },
+                {
+                    "name": "outside",
+                    "jpName": "校舎外",
+                    "list": [
+                        {
+                            "name": "main-gate",
+                            "jpName": "正門",
+                            "icon": "fas fa-archway"
+                        },
+                        {
+                            "name": "north-gate",
+                            "jpName": "北門",
+                            "icon": "fas fa-archway"
+                        },
+                        {
+                            "name": "south-ground",
+                            "jpName": "南グラウンド",
+                            "icon": "fas fa-futbol"
+                        },
+                        {
+                            "name": "tennis-coat",
+                            "jpName": "テニスコート",
+                            "icon": "fab fa-pagelines"
+                        },
+                        {
+                            "name": "general-ground",
+                            "jpName": "総合グラウンド",
+                            "icon": "fas fa-baseball-ball"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
